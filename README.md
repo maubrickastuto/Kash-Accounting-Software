@@ -58,47 +58,6 @@ For the numbers experts:
 
 ---
 
-## 💻 Getting Started (Local Development)
-
-**Prerequisites:**  
-- [Node.js](https://nodejs.org/en/) (v18+ recommended)
-- A Firebase Project (for Auth and Firestore)
-
-### 1. Clone & Install
-Clone the repository and install all dependencies:
-```bash
-git clone https://github.com/your-username/kash.git
-cd kash
-npm install
-```
-
-### 2. Configure Firebase Environment Variables
-Create a `.env` file in the root directory and add your Firebase credentials:
-```env
-VITE_FIREBASE_API_KEY=your_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-```
-*(Note: A `.env.example` file is provided in the repository for reference. Your real `.env` file is safely ignored by git!)*
-
-### 3. Run the App
-To run the app locally in development mode (which starts the Vite dev server and opens the Electron app):
-```bash
-npm run electron:dev
-```
-
-### 4. Build for Production
-To package the app into a standalone `.exe` installer for Windows:
-```bash
-npm run electron:build
-```
-Once finished, you can find the installer inside the `release/` directory.
-
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
