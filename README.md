@@ -99,12 +99,6 @@ Once finished, you can find the installer inside the `release/` directory.
 
 ---
 
-## 🛡️ Security Note
-
-All API keys, secrets, and environment configurations must remain in the `.env` file. This file is tracked by `.gitignore` and **will not** be uploaded to GitHub. 
-
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
