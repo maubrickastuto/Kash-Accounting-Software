@@ -18,6 +18,6 @@ Read the [installation guide](docs/INSTALLATION.md) and [business guide](docs/BU
 
 Manual invoices/bills/payments and corrections, dated reports, stock and asset registers, configured payroll with explicit access, reviewed recurring drafts and delivery records, private original documents, and complete encrypted independent recovery. New books use schema 6; posted schemas 2–5 remain supported and legacy schema 1 stays read-only. Statutory filing, live bank/payment integration and foreign exchange are outside this release.
 
-Firebase remains Spark and hosting remains the existing hard-capped Netlify Free plan. Release uploads use a standard public GitHub Actions runner, which is free. No private CI minutes, paid storage, subscription, automatic top-up or certificate was purchased.
+Firebase remains Spark and hosting remains the existing hard-capped Netlify Free plan. Installers are distributed through GitHub Release assets. No private CI minutes, paid storage, subscription, automatic top-up or certificate was purchased.
 
 Development source is maintained in [Kash-Accounting-App](https://github.com/maubrickastuto/Kash-Accounting-App) with repository access required. Release manifests identify its exact source commit. The older PDF manual in this repository is historical; the guides above describe the current release.
