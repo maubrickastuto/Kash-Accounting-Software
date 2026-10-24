@@ -1,63 +1,11 @@
-# Kash. 💼✨
+# Kash Accounting distribution
 
-**Kash.** is a modern, premium, and fully-featured financial and accounting application built for desktops. It acts as an all-in-one hub for managing your business's operations, banking, payroll, and core accounting, featuring real-time data sync through Firebase.
+Application source, operating instructions and reproducible test-installer builds are maintained in [Kash-Accounting-App](https://github.com/maubrickastuto/Kash-Accounting-App). This repository contains distribution documentation and an older PDF manual. The PDF describes an earlier build; use the current [business guide](https://github.com/maubrickastuto/Kash-Accounting-App/blob/main/docs/BUSINESS_GUIDE.md).
 
-<div align="center">
-  <em>Sleek, fast, and designed to make accounting look and feel premium.</em>
-</div>
+The current candidate includes manual invoices/bills/settlements and corrections, stock and asset registers, configured payroll with explicit access, reviewed recurring drafts and delivery records, private original documents, dated reports and complete encrypted independent recovery. It uses schema 6, supports posted schemas 2–6 and keeps legacy schema 1 read-only. Philippine presets require jurisdiction-specific review; statutory filing, live bank/payment integration and foreign exchange are outside this release.
 
----
+Windows x64 EXE and macOS Intel/Apple Silicon ZIP/DMG test candidates use the existing free staging backend. See [desktop release instructions](https://github.com/maubrickastuto/Kash-Accounting-App/blob/main/docs/DESKTOP_RELEASE.md), [validation](https://github.com/maubrickastuto/Kash-Accounting-App/blob/main/docs/VALIDATION.md) and [GitHub Releases](https://github.com/maubrickastuto/Kash-Accounting-App/releases) for available artifacts and their exact manifests. Packages require Internet access and sign-in. Never put server credentials into an installer.
 
-## 🚀 Features
+Artifacts record their exact source commit, architecture, SHA-256, backend compatibility and signing status. The Windows candidate is unsigned; Mac candidates use ad hoc signing without notarization. Archive, filesystem and code/resource integrity checks do not establish native install/launch/sign-in/update/uninstall or Gatekeeper acceptance. Perform the documented native QA using designated test companies and independent backups before actual-business use.
 
-### 1. Operations Hub
-Manage the core physical aspects of your business:
-- **Inventory Management**: Track stock levels, unit prices, and product catalogs.
-- **Inventory Adjustments**: Handle write-offs and write-ons with direct integration to the general ledger.
-- **Fixed Assets**: Track properties, vehicles, and equipment with automated depreciation (Straight-Line, Declining Balance, SYD, or Units of Production).
-
-### 2. Sales Hub
-Handle accounts receivable and customer relationships:
-- **Customers**: Manage clients, their contact information, and track outstanding balances.
-- **Sales Invoices**: Create professional invoices with automated tax calculations and ledger posting.
-- **Receipts**: Easily record payments against invoices.
-
-### 3. Purchases Hub
-Handle accounts payable and supplier relationships:
-- **Suppliers**: Maintain supplier directories and billing information.
-- **Purchase Bills**: Log expenses and inventory purchases.
-- **Payments**: Record outgoing cash flow and match it against vendor bills.
-
-### 4. Banking Hub
-Stay on top of your cash flow:
-- **Bank Accounts**: Create and manage multiple checking, savings, or petty cash accounts.
-- **Bank Feed**: Reconcile transactions, build bank rules, and match deposits/withdrawals.
-- **Transfers**: Log inter-account transfers seamlessly.
-
-### 5. Payroll Hub
-Ensure your team gets paid on time:
-- **Employees**: Store employee details and hourly rates.
-- **Timesheets**: Log billable and non-billable hours.
-- **Payslips**: Generate payslips automatically factoring in earnings, deductions, and tax contributions.
-
-### 6. Accounting Hub
-For the numbers experts:
-- **Chart of Accounts**: Fully customizable multi-level account structure (Assets, Liabilities, Equity, Income, Expenses).
-- **Journal Entries**: Post manual adjusting entries for complex scenarios.
-- **General Ledger**: A robust dual-entry accounting engine running under the hood for perfect financial integrity.
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend Framework**: React 19 + Vite
-- **Desktop Wrapper**: Electron
-- **Styling**: Tailwind CSS (v4) + Custom Premium Theme + Framer Motion (Animations)
-- **Icons**: Lucide React
-- **Database & Auth**: Firebase (Firestore & Authentication)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+Firebase remains on Spark and hosting on the existing hard-capped Netlify Free plan. No subscriptions, billing enrollment, top-ups, paid certificates or hosted build jobs were purchased. A production cutover, real opening balances/migration and tax/payroll policy need separate business/accountant acceptance. Building or installing a desktop package does not deploy its backend.
