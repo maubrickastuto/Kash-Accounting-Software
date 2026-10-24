@@ -1,11 +1,23 @@
-# Kash Accounting distribution
+# Kash Accounting
 
-Application source, operating instructions and reproducible test-installer builds are maintained in [Kash-Accounting-App](https://github.com/maubrickastuto/Kash-Accounting-App). This repository contains distribution documentation and an older PDF manual. The PDF describes an earlier build; use the current [business guide](https://github.com/maubrickastuto/Kash-Accounting-App/blob/main/docs/BUSINESS_GUIDE.md).
+Desktop bookkeeping for Windows and macOS, using the existing free online backend.
 
-The current candidate includes manual invoices/bills/settlements and corrections, stock and asset registers, configured payroll with explicit access, reviewed recurring drafts and delivery records, private original documents, dated reports and complete encrypted independent recovery. It uses schema 6, supports posted schemas 2–6 and keeps legacy schema 1 read-only. Philippine presets require jurisdiction-specific review; statutory filing, live bank/payment integration and foreign exchange are outside this release.
+## Download
 
-Windows x64 EXE and macOS Intel/Apple Silicon ZIP/DMG test candidates use the existing free staging backend. See [desktop release instructions](https://github.com/maubrickastuto/Kash-Accounting-App/blob/main/docs/DESKTOP_RELEASE.md), [validation](https://github.com/maubrickastuto/Kash-Accounting-App/blob/main/docs/VALIDATION.md) and [GitHub Releases](https://github.com/maubrickastuto/Kash-Accounting-App/releases) for available artifacts and their exact manifests. Packages require Internet access and sign-in. Never put server credentials into an installer.
+[Kash 1.0.0 preview release](https://github.com/maubrickastuto/Kash-Accounting-Software/releases/tag/v1.0.0-preview.1)
 
-Artifacts record their exact source commit, architecture, SHA-256, backend compatibility and signing status. The Windows candidate is unsigned; Mac candidates use ad hoc signing without notarization. Archive, filesystem and code/resource integrity checks do not establish native install/launch/sign-in/update/uninstall or Gatekeeper acceptance. Perform the documented native QA using designated test companies and independent backups before actual-business use.
+- [Windows x64 installer](https://github.com/maubrickastuto/Kash-Accounting-Software/releases/download/v1.0.0-preview.1/Kash-1.0.0-win-x64.exe)
+- [Mac Apple Silicon installer](https://github.com/maubrickastuto/Kash-Accounting-Software/releases/download/v1.0.0-preview.1/Kash-1.0.0-mac-arm64.dmg)
+- [Mac Intel installer](https://github.com/maubrickastuto/Kash-Accounting-Software/releases/download/v1.0.0-preview.1/Kash-1.0.0-mac-x64.dmg)
 
-Firebase remains on Spark and hosting on the existing hard-capped Netlify Free plan. No subscriptions, billing enrollment, top-ups, paid certificates or hosted build jobs were purchased. A production cutover, real opening balances/migration and tax/payroll policy need separate business/accountant acceptance. Building or installing a desktop package does not deploy its backend.
+ZIP alternatives, checksums, build provenance and integrity reports are attached to the same release. Generated installers are Release assets and are excluded from the Git source folders.
+
+Read the [installation guide](docs/INSTALLATION.md) and [business guide](docs/BUSINESS_GUIDE.md). These are unsigned Windows/ad hoc Mac preview packages, without notarization. Native platform acceptance remains pending. They require Internet access and connect to the staging service; use a designated preview company and independent protected backups. Actual-company policy/opening/migration acceptance remains necessary before real books.
+
+## Included workflows
+
+Manual invoices/bills/payments and corrections, dated reports, stock and asset registers, configured payroll with explicit access, reviewed recurring drafts and delivery records, private original documents, and complete encrypted independent recovery. New books use schema 6; posted schemas 2–5 remain supported and legacy schema 1 stays read-only. Statutory filing, live bank/payment integration and foreign exchange are outside this release.
+
+Firebase remains Spark and hosting remains the existing hard-capped Netlify Free plan. Installers are distributed through GitHub Release assets. No private CI minutes, paid storage, subscription, automatic top-up or certificate was purchased.
+
+Development source is maintained in [Kash-Accounting-App](https://github.com/maubrickastuto/Kash-Accounting-App) with repository access required. Release manifests identify its exact source commit. The older PDF manual in this repository is historical; the guides above describe the current release.
