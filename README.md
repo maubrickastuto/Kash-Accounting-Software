@@ -4,11 +4,11 @@ Desktop bookkeeping for Windows and macOS, using the existing free online backen
 
 ## Download
 
-[Kash 1.0.0 preview release](https://github.com/maubrickastuto/Kash-Accounting-Software/releases/tag/v1.0.0-preview.1)
+[Kash 1.0.0 preview release](https://kash-accounting-downloads.netlify.app/)
 
-- [Windows x64 installer](https://github.com/maubrickastuto/Kash-Accounting-Software/releases/download/v1.0.0-preview.1/Kash-1.0.0-win-x64.exe)
-- [Mac Apple Silicon installer](https://github.com/maubrickastuto/Kash-Accounting-Software/releases/download/v1.0.0-preview.1/Kash-1.0.0-mac-arm64.dmg)
-- [Mac Intel installer](https://github.com/maubrickastuto/Kash-Accounting-Software/releases/download/v1.0.0-preview.1/Kash-1.0.0-mac-x64.dmg)
+- [Windows x64 installer](https://kash-accounting-downloads.netlify.app/Kash-1.0.0-win-x64.exe)
+- [Mac Apple Silicon installer](https://kash-accounting-downloads.netlify.app/Kash-1.0.0-mac-arm64.dmg)
+- [Mac Intel installer](https://kash-accounting-downloads.netlify.app/Kash-1.0.0-mac-x64.dmg)
 
 ZIP alternatives, checksums, build provenance and integrity reports are attached to the same release. Generated installers are Release assets and are excluded from the Git source folders.
 
