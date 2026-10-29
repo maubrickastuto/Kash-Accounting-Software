@@ -2,16 +2,6 @@
 
 Desktop bookkeeping for Windows and macOS, using the existing free online backend.
 
-## Download
-
-[Kash 1.0.0 preview release](https://kash-accounting-downloads.netlify.app/)
-
-- [Windows x64 installer](https://kash-accounting-downloads.netlify.app/Kash-1.0.0-win-x64.exe)
-- [Mac Apple Silicon installer](https://kash-accounting-downloads.netlify.app/Kash-1.0.0-mac-arm64.dmg)
-- [Mac Intel installer](https://kash-accounting-downloads.netlify.app/Kash-1.0.0-mac-x64.dmg)
-
-ZIP alternatives, checksums, build provenance and integrity reports are attached to the same release. Generated installers are Release assets and are excluded from the Git source folders.
-
 Read the [installation guide](docs/INSTALLATION.md) and [business guide](docs/BUSINESS_GUIDE.md). These are unsigned Windows/ad hoc Mac preview packages, without notarization. Native platform acceptance remains pending. They require Internet access and connect to the staging service; use a designated preview company and independent protected backups. Actual-company policy/opening/migration acceptance remains necessary before real books.
 
 ## Included workflows
